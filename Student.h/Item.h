@@ -5,6 +5,7 @@
 class Item {
    private:
       int itemCode;
+      int updateItem;
       float unitPrice;
       float discount; // out of 100 e.g. discount = 15
    public:
